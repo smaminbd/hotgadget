@@ -6,8 +6,245 @@
     <title>Hot Gadget</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="container fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+            <div>
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+           
+            <div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#smartphone">Smartphone</a>
+                  <a class="nav-item nav-link" href="#laptop">Laptop</a>
+                  <a class="nav-item nav-link" href="#category">Category</a>
+                  <a class="nav-item nav-link" href="#about">About</a>
+                  <a class="nav-item nav-link" href="#contact">Contact</a>
+                  <a class="nav-item nav-link disabled" href="#contact" tabindex="-1" aria-disabled="true">Offers</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="head-gap"></div>
+
+    <div class="head-gap-b"></div>
     
+    <div class="first-container d-flex align-items-center">
+      <div class="container">
+      
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                  <h1>Google Assistant</h1>
+                  <p>Google Home Mini is Google Assistant anywhere you want it. Ask it questions. Tell it to do things. It's your own Google, always ready to help.</p>
+                  <button type="button" class="btn btn-dark" style="margin-left: 25px;">  BUY NOW 🡒 </button>
+                </div>
+                <div class="col-md-5">
+                  <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                </div>     
+              </div>        
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                  <h1>MacBook Pro</h1>
+                  <p>Extend your workspace and expand your creativity with iPad and Apple Pencil. And discover smart new features in the apps you use every day. Now you can take everything you do above and beyond.</p>
+                  <button type="button" class="btn btn-dark" style="margin-left: 25px;">  BUY NOW 🡒 </button>
+                </div>
+                <div class="col-md-5">
+                  <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                  <h1>Waterproof Portable Speaker</h1>
+                  <p>JBL Charge 3 is the ultimate, high-powered portable Bluetooth speaker with powerful stereo sound and a power bank all in one package. The Charge 3 takes the party everywhere, poolside or in the rain, thanks to the waterproof design, durable fabric and rugged housing.</p>
+                  <button type="button" class="btn btn-dark" style="margin-left: 25px;">  BUY NOW 🡒 </button>
+                </div>
+                <div class="col-md-5">
+                  <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container product" id="smartphone">
+      <div class="d-flex justify-content-between">
+        <h2 style="padding-left: 10px;">Smartphone</h2>
+        <a href="#Products" class="see-all" target="_blank">See All</a>
+      </div>
+      <div class="card-deck text-center">
+        <div class="card">
+          <div class="card-deck-img">
+            <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+          </div>
+          
+          <div class="card-body">
+            <h5 class="card-title">Xiaomi Redmi Note 5 Pro</h5>
+            <p class="card-text">AI Dual Camera Android smartphone. Announced Mar 2018. Features 5.99″ IPS LCD display, Snapdragon 636 chipset, Dual: 12 MP Camera.</p>
+            <h5 class="card-title">$699</h5>
+            <button type="button" class="btn btn-dark">  BUY NOW 🡒 </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-deck-img">
+            <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+          </div>
+          
+          <div class="card-body">
+            <h5 class="card-title">iPhone 11 Pro</h5>
+            <p class="card-text">Super Retina XDR display; 5.8‑inch (diagonal) all‑screen OLED Multi‑Touch display; HDR display; 2436‑by‑1125-pixel resolution at 458 ppi.</p>
+            <h5 class="card-title">$999</h5>
+            <button type="button" class="btn btn-dark">  BUY NOW 🡒 </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-deck-img">
+            <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Galaxy Note 10 Plus</h5>
+            <p class="card-text">For the first time ever, you can choose the Note size that fits you best. Galaxy Note10 and Galaxy Note10 plus seen at a three-quarter angle with an abstract.</p>
+            <h5 class="card-title">$799</h5>
+            <button type="button" class="btn btn-dark">  BUY NOW 🡒 </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container product" id="laptop">
+      <div class="d-flex justify-content-between">
+        <h2 style="padding-left: 10px;">Laptop</h2>
+        <a href="#Products" class="see-all" target="_blank">See All</a>
+      </div>
+      <div class="card-deck text-center">
+        <div class="card">
+          <div class="card-deck-img">
+            <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+          </div>
+          
+          <div class="card-body">
+            <h5 class="card-title">ASUS VivoBook X510</h5>
+            <p class="card-text">X510 weighs 1.5kg, has a 19.4mm profile and a 7.8mm NanoEdge display. It is powered by a 7th Gen Intel Core processor.</p>
+            <h5 class="card-title">$1699</h5>
+            <button type="button" class="btn btn-dark">  BUY NOW 🡒 </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-deck-img">
+            <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+          </div>
+          
+          <div class="card-body">
+            <h5 class="card-title">Razer Blade 15</h5>
+            <p class="card-text">Meet the new Razer Blade 15— crafted for those who demand more. We're talking more power with an available 8-Core 10th Gen Intel® Core™ i7 processor.</p>
+            <h5 class="card-title">$1799</h5>
+            <button type="button" class="btn btn-dark">  BUY NOW 🡒 </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-deck-img">
+            <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Mi Notebook Pro</h5>
+            <p class="card-text">Xiaomi Mi Notebook Pro is a cost-effective notebook which supports fingerprint recognition. Equipped with a 15.6 inch FHD display, brings your photos and videos to life.</p>
+            <h5 class="card-title">$1599</h5>
+            <button type="button" class="btn btn-dark">  BUY NOW 🡒 </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container product" id="category">
+      <ul>
+        <li><h2 style="text-align: center;" id="category">Category</h2></li>
+        <li><div class="title-underline"></div></li>
+      </ul>
+      <div class="row">
+        <div class="col-md-3 d-flex align-items-center justify-content-end">
+          <div class="cat-box d-flex flex-column align-items-center">
+            <img src="images/categories/bag.png" alt="">
+            <h3>Bag</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="cat-box d-flex flex-column align-items-center">
+            <img src="images/categories/perfume.png" alt="">
+            <h3>Beauty</h3>
+          </div>
+          <div class="cat-box d-flex flex-column align-items-center">
+            <img src="images/categories/shoe.png" alt="">
+            <h3>Shoes</h3>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <img style="width: 95%;" src="images/categories/pale-order.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <footer id="contact">
+
+      <div class="row">
+        <div class="col-md-4">
+          <h5 id="about">About</h5>
+          Designed and built with all the love in the world by <b>Aminul Islam</b> as an assignment to the Programming Hero Web Development Course.
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <h5>Connect</h5>
+            <div class="row">
+              <a class="col-md-3" target="_blank" href="https://www.instagram.com/smaminbd"><img src="images/contact/Logo---Instagram-1.png" alt=""></a>
+              <a class="col-md-3" target="_blank" href="https://www.twitter.com/smaminbd"><img src="images/contact/Logo---Twitter-1.png" alt=""></a>
+              <a class="col-md-3" target="_blank" href="https://www.facebook.com/smaminbd"><img src="images/contact/Logo---Facebook-1.png" alt=""></a>
+              <a class="col-md-3" target="_blank" href="#"><img src="images/contact/Logo---WhatsApp-1.png" alt=""></a>
+            </div>
+
+            <br>
+          
+          <a href="https://www.freepik.com/free-photos-vectors/logo" style="text-decoration: none;color: lightgray;">
+            <small>| Logo vector created by BiZkettE1 - www.freepik.com |</small>
+          </a>
+        </div>
+      </div>
+
+      All rights reserved ©️ 2020 Quarantine Days
+    </footer>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
